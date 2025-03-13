@@ -1,0 +1,230 @@
+/* ************************************GENERAL*************************************************** */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  vertical-align: top;
+}
+body {
+  background-color: #ffd500;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header,
+nav,
+aside {
+  background-color: cornflowerblue;
+}
+h2,
+a,
+aside > p {
+  color: white;
+}
+#container {
+  width: 70%;
+  margin: auto;
+}
+/* *****************************************HEADER**************************************************** */
+header h2 {
+  text-align: center;
+  padding: 20px 0 20px 0;
+  font-size: 2em;
+}
+
+.famille img {
+  width: 100%;
+  object-fit: contain;
+}
+
+/* *****************************************MAIN******************************************************** */
+nav {
+  padding: 10px 30px 10px 30px;
+  margin-bottom: 300px;
+  width: 15%;
+  font-size: 1em;
+  line-height: 200%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  color: #ffd500;
+  padding: 30px 0 30px 20px;
+  font-size: 2em;
+}
+
+main {
+  background-color: white;
+  display: flex;
+  padding: 2em 1em;
+}
+
+article {
+  width: 70%;
+}
+
+.simpsons p {
+  padding: 0 15px 0 20px;
+  color: black;
+  text-align: justify;
+}
+
+.createur {
+  padding: 20px;
+  width: 15%;
+}
+
+.createur img {
+  border: solid;
+  border-color: white;
+  width: 70%;
+  display: block;
+  margin: auto;
+}
+
+.createur h2 {
+  padding: 10px 0 10px 0;
+  display: flex;
+  justify-content: center;
+}
+
+/* ************************************************FOOTER*********************************************************** */
+
+footer {
+  background-color: blue;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+/* ************************************************RESPONSIVE********************************************************* */
+
+/* Smartphones (portrait and landscape) */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  #container {
+    width: 100%;
+    font-size: 1em;
+  }
+}
+
+main {
+  flex-direction: column;
+  padding: 0;
+}
+
+nav {
+  padding: 10px;
+  background-color: #ffd500;
+  width: 100%;
+  margin: 0;
+}
+
+article {
+  width: 100%;
+  padding: 15px;
+}
+
+.createur {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.createur p {
+  text-align: center;
+}
+.createur img {
+  width: 50%;
+}
+
+.createur h2 {
+  font-size: 3em;
+  padding: 20px;
+}
+
+/* Smartphones (landscape) */
+@media only screen and (min-width: 321px) {
+  #container {
+    width: 100%;
+  }
+}
+
+main {
+  flex-direction: column;
+  padding: 0;
+}
+
+nav {
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #ffd500;
+  width: 100%;
+  margin: 0;
+}
+
+article {
+  width: 100%;
+  padding: 15px;
+}
+
+.createur {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.createur p {
+  text-align: center;
+}
+.createur img {
+  width: 50%;
+}
+
+.createur h2 {
+  font-size: 3em;
+  padding: 20px;
+}
+
+/* Smartphones (portrait) */
+@media only screen and (max-width: 320px) {
+  #container {
+    width: 100%;
+  }
+}
+
+main {
+  flex-direction: column;
+  padding: 0;
+}
+
+nav {
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #ffd500;
+  width: 100%;
+  margin: 0;
+}
+
+article {
+  width: 100%;
+  padding: 15px;
+}
+
+.createur {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.createur p {
+  text-align: center;
+}
+.createur img {
+  width: 50%;
+}
+
+.createur h2 {
+  font-size: 3em;
+  padding: 20px;
+}
